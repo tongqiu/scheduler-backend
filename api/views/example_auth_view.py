@@ -4,4 +4,4 @@ from rest_framework import authentication, permissions
 
 class ExampleView(APIView):
     def get(self, request):
-        return Response("Authentication yay")
+        return Response("Authenticated yay!")
